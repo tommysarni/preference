@@ -44,7 +44,7 @@ const Choice = ({id, img, track, video, selected, setSelected}) => {
 
   return (
     <div className={`choice_div`}>
-      <div>
+      <div className='vertical'>
         <img alt='portfolio shot' src={img} className={`${selected === id ? 'choice_img with_border' : 'choice_img no_border'}`}
           onClick={() => { play(id) }} />
         <video id={video} width="320" height="240" src={video} className='choice_vid' loop>

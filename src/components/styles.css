@@ -90,7 +90,7 @@
   
 }
 .better {
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .welcome_header {
@@ -148,7 +148,7 @@ i {
 }
 
 .choice_img {
-  height:60vh;
+
 }
 
 
@@ -176,14 +176,20 @@ i {
 
 }
 
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .choice_vid {
   
   /* top: -100px; */
 
   display: inline-block;
   margin: 0 auto;
+  height: 5%;
+  width:50%;
 
-  opacity: 50%;
   border-radius: 25px;
   background-color: white;
   text-align: center;
