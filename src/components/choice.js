@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './styles.css'
 const Choice = ({id, img, track, video, selected, setSelected}) => {
 
