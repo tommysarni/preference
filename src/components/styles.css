@@ -35,23 +35,37 @@
 }
 
 .start {
+
   border-radius: 10px;
   background-color: gray;
 
   color: white;
   padding: 15px;
-  margin-top: 50px;
-  width: 150;
+  margin-top: 0px;
+  width: 100px;
+
+}
+
+.start_choice {
+  position: absolute;
+  border-radius: 10px;
+  background-color: gray;
+  bottom: 5%;
+  color: white;
+  padding: 15px;
+  margin-top: 0px;
+  width: 100px;
 }
 
 .start_blue {
+  position: absolute;
   border-radius: 10px;
   background-color: blue;
-
+  bottom: 5%;
   color: white;
   padding: 15px;
-  margin-top: 50px;
-  width: 150;
+  margin-top: 0px;
+  width: 100px;
 }
 
 .ins-c {
@@ -133,6 +147,10 @@ i {
   opacity: 70%;
 }
 
+.choice_img {
+  height:60vh;
+}
+
 
 .choice_container {
   display: flex;
@@ -159,9 +177,7 @@ i {
 }
 
 .choice_vid {
-  position:absolute;
-  top:30%;
-  left:30%;
+  
   /* top: -100px; */
 
   display: inline-block;

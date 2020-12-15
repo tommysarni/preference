@@ -21,8 +21,7 @@ const Choose = ({choices}) => {
   }
 
   const next = () => {
-    console.log(choice + 1)
-    if (selected > 0 || choice < 2) {
+    if (selected > 0 || choice < 1) {
       if (selected > 0) {
         setArr([...arr, selected])
       }
@@ -71,7 +70,7 @@ const Choose = ({choices}) => {
               setSelected={setSelected} />
           </div>
           <div id='next' onClick={() => next()}
-            className={`${(selected > 0 || choice === 0) ? 'start_blue' : 'start'}`}>
+            className={`${(selected > 0 || choice === 0) ? 'start_blue' : 'start_choice'}`}>
             Next
       </div>
           </div>
