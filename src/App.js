@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-import Choice from './components/choice';
 import Choose from './components/choose';
 
 const choices1 = [
